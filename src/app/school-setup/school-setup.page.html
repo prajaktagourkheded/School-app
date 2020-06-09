@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-toolbar> 
+    <ion-buttons slot="start"> 
+      <ion-button routerLink="/home" color="dark">
+        <ion-icon name="chevron-back-outline"></ion-icon>Back
+      </ion-button>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+  
+  
+  <ion-card>
+    <!-- <h1 style="text-align: center; color: #1669D3;"><b>School Setup</b></h1> -->
+    <div style="text-align: center;"> 
+      <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_G9r0Hr.json" style="width: 100%; height: 20%; padding: 0px 0px 0px 0px;" speed="1" background="#E564B9" loop autoplay ></lottie-player>
+    </div>
+    <!-- <ion-card-header>
+      <ion-card-title style="text-align: center; color: #1669D3;"><b>School Setup</b></ion-card-title>
+    </ion-card-header> -->
+    <ion-card-content>
+
+      <ion-item>
+        <ion-icon name="business-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="text" placeholder="Name of School" clearInput  style="color: black;">
+        </ion-input>
+      </ion-item>
+        
+      <ion-list>
+        <ion-item>
+          <ion-icon name="school-outline" slot="start" style="color: #E564B9;"></ion-icon>
+          <ion-label style="color: grey;">Curriculum</ion-label>
+          <ion-select interface="popover">
+            <ion-select-option value="cbse">CBSE</ion-select-option>
+            <ion-select-option value="icse">ICSE</ion-select-option>
+            <ion-select-option value="igcse">IGCSE</ion-select-option>
+            <ion-select-option value="ib">IB</ion-select-option>
+            <ion-select-option value="coaching">Coaching Centre</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-item>
+        <ion-icon name="people-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="number" placeholder="Number of Students" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <ion-list>
+        <ion-item>
+          <ion-icon name="ribbon-outline" slot="start" style="color: #E564B9;"></ion-icon>
+          <ion-label style="color: grey;">Grade Range</ion-label>
+          <ion-select interface="popover">
+            <ion-select-option value="kgto12">KG to 12th</ion-select-option>
+            <ion-select-option value="kgto5">KG to 5th</ion-select-option>
+            <ion-select-option value="6to12">6th to 12th</ion-select-option>
+            <ion-select-option value="6to10">6th to 10th</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-item>
+        <ion-icon name="person-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="text" placeholder="Name of Chairman / Director" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="call-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="number" placeholder="Mobile Number" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="person-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="text" placeholder="Name of Principal" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="call-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="number" placeholder="Mobile Number" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="mail-outline" slot="start" style="color: #E564B9;"></ion-icon>
+        <ion-input type="email" placeholder="Email" clearInput >
+        </ion-input>
+      </ion-item>
+
+      <br>
+
+      <ion-button shape="round" expand="full" fill="outline" color= "#E564B9;"><b>Submit</b></ion-button>
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

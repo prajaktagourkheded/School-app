@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar>
+     <ion-back-button defaultHref="/home" style="position: fixed;"></ion-back-button>
+    <ion-title align="center">Register My School</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="myview">
+  <div class="container">
+    <form  [formGroup] = "registerForm" class="inside">
+      <img src = "../../assets/icon/bg.png" height="140px" width="100%">
+        <div class="textbox">
+          <ion-icon name="person-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="text" placeholder="First Name" formControlName="fname"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.fname.dirty || registerForm.controls.fname.touched) && registerForm.controls.fname.invalid">
+            Required *
+          </span>
+        </div>
+        
+
+        
+        <div class="textbox">
+          <ion-icon name="person-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="text" placeholder="Last Name" formControlName="lname"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.lname.dirty || registerForm.controls.lname.touched) && registerForm.controls.lname.invalid">
+            Required *
+          </span>
+        </div>
+        
+        
+        
+
+        <div class="textbox">
+          <ion-icon name="school-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="text" placeholder="Name of School" formControlName="school"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.school.dirty || registerForm.controls.school.touched) && registerForm.controls.school.invalid">
+            Required *
+             </span>
+        </div>
+        
+        <div class="textbox">
+          <ion-icon name="call-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="number" placeholder="Mobile Number" formControlName="mob"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.mob.dirty || registerForm.controls.mob.touched) && registerForm.controls.mob.invalid">
+            Required *
+             </span>
+        </div>
+        
+        
+        <div class="textbox">
+          <ion-icon name="mail-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="email" placeholder="Email" formControlName="email"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.email.dirty || registerForm.controls.email.touched) && registerForm.controls.email.invalid">
+            Required *
+             </span>
+        </div>
+        <div class="textbox">
+          <ion-icon name="pencil-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="text" placeholder="Title" formControlName="title"></ion-input>
+          <span class="danger" *ngIf="(registerForm.controls.title.dirty || registerForm.controls.title.touched) && registerForm.controls.title.invalid">
+            Required *
+             </span>
+        </div>
+        <div class="textbox">
+          <ion-icon name="lock-closed-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="password" placeholder="Password" formControlName="pwd"></ion-input>
+        </div>
+        <span class="danger" *ngIf="(registerForm.controls.pwd.dirty || registerForm.controls.pwd.touched) && registerForm.controls.pwd.invalid">
+          Password must be at least 7 characters and not more than 12 characters
+           </span>
+           <div *ngIf="pwddanger" class="danger">
+            password and re-password didn't match !!
+          </div>
+        <div class="textbox">
+          <ion-icon name="lock-closed-outline" style="color:#C4549B;"></ion-icon>
+          <ion-input type="password" placeholder="Confirm password" formControlName="rpwd"></ion-input>
+        </div>
+       
+        <div class="outside">
+            <ion-button shape="round" (click)="add()">Register</ion-button>
+        </div>
+    
+    </form>
+    
+    
+
+  </div>
+
+
+</ion-content>
