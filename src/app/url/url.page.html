@@ -1,38 +1,56 @@
 <ion-header>
-  <ion-toolbar> 
-    <ion-buttons slot="start"> 
-      <ion-button routerLink="/home" color="dark">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/school-setup" color="dark">
         <ion-icon name="chevron-back-outline"></ion-icon>Back
       </ion-button>
-    </ion-buttons> 
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="background">
-  
-  <div style="text-align: center;"> 
-    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_JkJbcw.json" speed="1" loop autoplay style="text-align: center;"></lottie-player>
+  <div style="text-align: center;">
+    <lottie-player
+      src="https://assets6.lottiefiles.com/packages/lf20_JkJbcw.json"
+      speed="1"
+      loop
+      autoplay
+      style="text-align: center;"
+    ></lottie-player>
   </div>
 
-  <h1 style="text-align: center; color: #1669D3;"><b>Create School Url</b></h1>
-  <br>
+  <h1 style="text-align: center; color: #1669d3;"><b>Create School Url</b></h1>
+  <br />
 
-  <div style="padding: 2%;"> 
+  <div style="padding: 2%;">
+    <ion-item>
+      <ion-label style="color: #1669d3;" slot="end"
+        ><b>.AssessPlay.com</b></ion-label
+      >
+      <ion-input placeholder="Your Url"> </ion-input>
+    </ion-item>
 
-      <ion-item>
-        <ion-label style="color: #1669D3;" slot="end"><b>.AssessPlay.com</b></ion-label>
-        <ion-input placeholder="Your Url" >
-        </ion-input>
-      </ion-item>
+    <br />
 
-      <br>
-      
-      <ion-button shape="round" expand="full" fill="outline"><b>Create</b></ion-button>
-      
-      <br>
+    <ion-button shape="round" expand="full" fill="outline"
+      ><b>Create</b></ion-button
+    >
 
-      <ion-button shape="round" expand="full" fill="outline"><b>Chat <ion-icon name="chatbubbles-outline"></ion-icon></b></ion-button>
+    <br />
 
+    <ion-button shape="round" expand="full" fill="outline"
+      ><b>Chat <ion-icon name="chatbubbles-outline"></ion-icon></b
+    ></ion-button>
+
+    <br />
+
+    <ion-button
+      routerLink="/forgot-password"
+      shape="round"
+      expand="full"
+      fill="outline"
+      color="dark"
+      >Forgot Password</ion-button
+    >
   </div>
-
 </ion-content>

@@ -1,27 +1,108 @@
-#container {
-  text-align: center;
+ion-toolbar {
+  --background: #1669d3;
+  color: black;
+  padding: 0px;
+}
+ion-header {
+  &.header-md:after {
+    background: none;
+  }
+}
 
-  position: absolute;
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  top: 0;
   left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  opacity: 0.9;
 }
 
-#container strong {
+ion-slides {
+    --bullet-background: white;
+    --bullet-background-active: white;
+ }
+
+//  Parul's Code
+h1 {
+  text-align: center;
+  color: #213866;
+  font-family: arial, sans-serif;
   font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+// Prajakta's Code 
+.platform{
+   
+    
+  width: 100%;
+  padding-bottom: 17%;
+  background-color: #1669d3;
 
-  color: #8c8c8c;
-
-  margin: 0;
+}
+.platform .headingPlatform{
+  text-align: center;
+  color: white;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-weight: bold; 
+  font-size: 30px; 
 }
 
-#container a {
-  text-decoration: none;
+.txt{
+  // border: solid 2px green;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  
+}
+
+.platform ion-card{
+  height: 110%;
+  padding-bottom: 0%;
+  border-radius: 0px;
+  padding-top: 10px;
+  margin: 5px;   
+}
+
+.platform ion-icon{
+  zoom: 4.1;
+  // border: solid 1px pink;
+  padding: 5%;
+  width: 100%;
+  
+}
+.headingBlog{
+  text-align: center;
+  color: #1669d3;
+  font-weight: bold;
+}
+
+.blog{
+  height: 40%;
+   border-bottom: solid 2px #3D7FAF;
 }
