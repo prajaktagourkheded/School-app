@@ -1,0 +1,31 @@
+ion-button{
+    // --background: #1669D3;;
+    color: #1669D3;
+    
+}
+ion-toolbar{
+    --background: white;
+    color: black;
+}
+ion-header {
+    &.header-md:after {
+      background: none;
+    }
+}
+lottie-player {
+    height: 150px;
+    // width: 150px;
+    padding: 0px;
+    width: 100%;
+}
+
+.error-message{
+    color: var(--ion-color-danger);
+}
+  
+ion-content.background{
+    --background: url(../../assets/icon/bg1.png) 0 0/100% 100% no-repeat;
+}
+.gradient{
+    background: linear-gradient(#e66465, #9198e5);
+}

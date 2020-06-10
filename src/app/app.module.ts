@@ -10,6 +10,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import {ReactiveFormsModule , FormsModule} from '@angular/forms';
+import { defineCustomElements } from "@teamhive/lottie-player/loader";
+
+defineCustomElements(window);
 
 @NgModule({
   declarations: [AppComponent],
