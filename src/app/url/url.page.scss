@@ -24,7 +24,8 @@ lottie-player {
 }
   
 ion-content.background{
-    --background: url(../../assets/bg.png) 0 0/100% 100% no-repeat;
+    --background: url(../../assets/bg.png) ;
+    background-repeat: no-repeat;
 }
 .gradient{
     background: linear-gradient(#e66465, #9198e5);

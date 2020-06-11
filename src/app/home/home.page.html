@@ -19,59 +19,80 @@
   <!-- Swapnil's Code  -->
   <ion-slides
     #mySlider
-    style="height: 220px; background-color: #1669d3;"
+    style="background-size: cover;"
     [options]="sliderOpts"
     pager="true"
   >
     <ion-slide>
-      <img src="../../../assets/1.jpg" />
+      <img src="../../../assets/s1.jpg" />
     </ion-slide>
 
     <ion-slide>
-      <img src="../../../assets/2.jpg" />
+      <img src="../../../assets/s2.jpg" />
     </ion-slide>
 
     <ion-slide>
-      <img src="../../../assets/1.jpg" />
+      <img src="../../../assets/s3.jpg" />
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../../assets/s4.jpg" />
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../../assets/s5.jpg" />
     </ion-slide>
   </ion-slides>
 
-  <div class="video-container">
-    <br />
-    <h2
-      style="text-align: center; padding: 0px; margin-top: 0px; color: #1669d3;"
-    >
-      <b>How does it work?</b>
-    </h2>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <iframe
-            src="https://www.youtube.com/embed/OVFiJZCn880"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </ion-col>
-        <ion-col style="text-transform: capitalize; text-align: justify;">
-          Lorem ipsum dolor sit amet consectetur 
-          <div style="text-align: center;">
-            <ion-button
-              shape="round"
-              fill="outline"
-              routerLink="/registeration"
-              >Register School</ion-button
-            >
-            <br>
-          </div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-    <br>
+  <div>
+    <div>
+      <br />
+      <h2
+        style="
+          text-align: center;
+          padding: 0px;
+          margin-top: 0px;
+          color: #1669d3;
+        "
+      >
+        <b>How does it work?</b>
+      </h2>
+      <ion-grid>
+        <ion-row>
+          <ion-col style="text-align: center;">
+            <iframe
+              src="https://www.youtube.com/embed/OVFiJZCn880"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </ion-col>
+          <ion-col style="text-transform: capitalize; text-align: justify;">
+            <p style="color: black; text-align: center; padding: 10px;">
+              Increase engagement with your students in the online classroom.
+              Know how many have understood what you’re teaching…..Real Time.
+              Create exams in minutes using comprehensive Question Bank Conduct
+              exams online securely with AI Automated Proctoring Publish vibrant
+              Report Cards using ready templates Assessments Re-imagined!
+              AssessPlay
+            </p>
+            <div style="text-align: center;">
+              <ion-button
+                shape="round"
+                fill="outline"
+                routerLink="/registeration"
+                >Register School</ion-button
+              >
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <br />
+    </div>
   </div>
 
   <div class="centered">
-    <ion-card style="border-radius: 20px; transform: scale(0.8);">
+    <ion-card style="border-radius: 20px; transform: scale(0.5);">
       <h2 style="text-align: center; color: #1669d3;"><b>Request Demo</b></h2>
       <ion-item>
         <ion-icon
@@ -102,7 +123,7 @@
     <h2
       style="text-align: center; padding: 0px; margin-top: 0px; color: white;"
     >
-      <b>FEATURES</b>
+      <b>Features</b>
     </h2>
     <ion-slides
       #mySlider
@@ -116,14 +137,16 @@
             text-align: center;
             font-family: 'Courier New', Courier, monospace, sans-serif;
             font-size: xx-large;
-            color: gold;
+            color: white;
+            padding: 10px;
           "
         >
-          FRAUD PROOF
+          <b>Easy To Use</b>
         </p>
         <lottie-player
           style="float: right;"
-          src="  https://assets6.lottiefiles.com/packages/lf20_ATMNHo.json"
+          src="https://assets7.lottiefiles.com/private_files/lf30_0dTvc7.json"
+          background="transparent"
           speed="2"
           loop
           autoplay
@@ -136,14 +159,15 @@
             text-align: center;
             font-family: 'Courier New', Courier, monospace, sans-serif;
             font-size: xx-large;
-            color: gold;
+            color: white;
+            padding: 10px;
           "
         >
-          EASY TO USE
+          <b>Engagement</b>
         </p>
         <lottie-player
           style="float: right;"
-          src="https://assets6.lottiefiles.com/packages/lf20_1LsvAZ.json"
+          src="https://assets5.lottiefiles.com/packages/lf20_xRmNN8.json"
           speed="2"
           loop
           autoplay
@@ -156,86 +180,63 @@
             text-align: center;
             font-family: 'Courier New', Courier, monospace, sans-serif;
             font-size: xx-large;
-            color: gold;
+            color: white;
+            padding: 10px;
           "
         >
-          ENGAGEMENT
+          <b>Report Card Generation</b>
         </p>
         <lottie-player
           style="float: right;"
-          src="https://assets2.lottiefiles.com/packages/lf20_DYkRIb.json"
-          speed="2"
-          loop
-          autoplay
-        ></lottie-player>
-      </ion-slide>
-
-      <ion-slide>
-        <p
-          style="
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace, sans-serif;
-            font-size: xx-large;
-            color: gold;
-          "
-        >
-          PREDICTIVE ANALYSIS
-        </p>
-        <lottie-player
-          style="float: right;"
-          src="https://assets5.lottiefiles.com/packages/lf20_meNSkq.json"
-          speed="2"
-          loop
-          autoplay
-        ></lottie-player>
-      </ion-slide>
-      <ion-slide>
-        <p
-          style="
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace, sans-serif;
-            font-size: xx-large;
-            color: gold;
-          "
-        >
-          REPORT CARD GENERATION
-        </p>
-        <lottie-player
-          style="float: right;"
-          src="https://assets8.lottiefiles.com/temp/lf20_LVHGUm.json"
+          src="https://assets9.lottiefiles.com/packages/lf20_6wT899.json"
           speed="2"
           loop
           autoplay
         ></lottie-player>
       </ion-slide>
     </ion-slides>
+    <p style="color: white; text-align: center; padding: 10px;">
+      Powerful features addressing the pain points of every one of the
+      stakeholders, Examination Managers, Teachers and Students. <br />
+      <br />
+      Links to be designed for every one of these features.
+    </p>
   </div>
+
   <div>
-    <br />
-    <h2
-      style="text-align: center; padding: 0px; margin-top: 0px; color: #1669d3;"
-    >
-      <b>BENEFIT STAKE HOLDERS</b>
+    <h2 style="text-align: center; color: #1669d3;">
+      <b>Benefit Stake Holders</b>
     </h2>
     <ion-slides
+      style="border: 0 !important; box-shadow: none !important;"
       #mySlider
-      style="height: 450px; margin-bottom: 2px;"
       [options]="sliderOpts"
       pager="false"
     >
       <ion-slide>
-        <ion-card style="height: 450px;">
-          <ion-card-header>
-            <img
-              float="right"
-              src="../../../assets/Untitled.png"
-              height="10px"
-            />
-          </ion-card-header>
-          <ion-card-content style="font-size: small; color: violet;"
-            >School Management System offer technical excellence that supports
-            different types of model to satisfy the browsing needs of any
-            clients.
+        <ion-card>
+          <img
+            src="../../../assets/exam.svg"
+            style="height: 150px; padding: 10px;"
+          />
+          <ion-card-content>
+            <h2
+              style="
+                text-align: center;
+                padding: 0px;
+                margin-top: 0px;
+                color: black;
+              "
+            >
+              <b>Exam Manager</b>
+            </h2>
+
+            <p style="color: black;">
+              Schedule Exams for whole year easily Bulk upload of student,
+              subject and teacher data Simple assignment of weightages, time
+              limits & marks Create question paper randomly from Question Bank
+              Cheat-proof conduct of exams using AI Proctors.
+            </p>
           </ion-card-content>
         </ion-card>
       </ion-slide>
@@ -243,14 +244,27 @@
       <ion-slide>
         <ion-card>
           <img
-            src="../../../assets/STUDENT.png "
-            style="margin-top: 3px;"
-            padding="0px 0px 0px 0px"
+            src="../../../assets/teacher.svg"
+            style="height: 150px; padding: 10px;"
           />
-          <ion-card-content style="font-size: small; color: dodgerblue;"
-            >School Management System offer technical excellence that supports
-            different types of model to satisfy the browsing needs of any
-            clients.
+          <ion-card-content>
+            <h2
+              style="
+                text-align: center;
+                padding: 0px;
+                margin-top: 0px;
+                color: black;
+              "
+            >
+              <b>Teacher</b>
+            </h2>
+
+            <p style="color: black;">
+              Create Questions manually or from Question Bank Increase classroom
+              engagement with ready to use Pop Up Quiz Auto correct student
+              answers. Huge time saving for teachers Publish Report Cards
+              automatically using vibrant templates.
+            </p>
           </ion-card-content>
         </ion-card>
       </ion-slide>
@@ -258,14 +272,27 @@
       <ion-slide>
         <ion-card>
           <img
-            src="../../../assets/exam.jpg"
-            style="margin-top: 4px;"
-            padding="0px 0px 0px 0px"
+            src="../../../assets/student.svg"
+            style="height: 150px; padding: 10px;"
           />
-          <ion-card-content style="font-size: small; color: dodgerblue;"
-            >School Management System offer technical excellence that supports
-            different types of model to satisfy the browsing needs of any
-            clients.
+          <ion-card-content>
+            <h2
+              style="
+                text-align: center;
+                padding: 0px;
+                margin-top: 0px;
+                color: black;
+              "
+            >
+              <b>Students</b>
+            </h2>
+
+            <p style="color: black;">
+              Students can take the exams on any device. Voice to Text helps
+              students not great at typing Exam schedule linked to
+              Google/Outlook calendar Answer scripts available online after
+              results Learning Resources.
+            </p>
           </ion-card-content>
         </ion-card>
       </ion-slide>
@@ -275,37 +302,41 @@
   <!-- Prajakta's Code  -->
 
   <div class="platform">
-    <h2 class="headingPlatform">Multiple platform</h2>
+    <h2 class="headingPlatform">Multiple Platform</h2>
     <ion-row>
       <ion-col>
         <ion-card style="border-radius: 10px;">
-          <ion-icon name="logo-android" style="color: #4b8ddc;"></ion-icon>
-          <div class="txt">Android</div>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card style="border-radius: 10px;">
-          <ion-icon name="logo-windows" style="color: #4b8ddc;"></ion-icon>
+          <ion-icon name="logo-windows" style="color: #1669d3;"></ion-icon>
           <div class="txt">Windows</div>
         </ion-card>
       </ion-col>
 
       <ion-col>
         <ion-card style="border-radius: 10px;">
-          <ion-icon name="logo-apple" style="color: #4b8ddc;"></ion-icon>
+          <ion-icon name="logo-apple" style="color: #1669d3;"></ion-icon>
           <div class="txt">IOS</div>
         </ion-card>
       </ion-col>
+
+      <ion-col>
+        <ion-card style="border-radius: 10px;">
+          <ion-icon name="logo-android" style="color: #1669d3;"></ion-icon>
+          <div class="txt">Android</div>
+        </ion-card>
+      </ion-col>
     </ion-row>
+    <p style="color: white; text-align: center; padding: 20px;">
+      Available in all formats. On a PC, Laptops, iPads or Mobile phones on
+      various platforms like Windows, IOS or Android
+    </p>
   </div>
-  <div class="blog">
+  <div>
     <h2 class="headingBlog"><b>Blog & Resources</b></h2>
     <ion-searchbar placeholder="Search"></ion-searchbar>
     <img
       src="../../../assets/link.jpg"
       alt=""
-      style="float: right; margin-top: 15%; margin-right: 5%;"
+      style="float: right; padding: 10px;"
       height="28%"
       width="28%"
     />

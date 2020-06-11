@@ -28,18 +28,18 @@ ion-header {
 }
 .centered {
   position: absolute;
-  top: 15%;
-  left: 70%;
+  top: 13%;
+  left: 80%;
   width: 60%;
   transform: translate(-50%, -50%);
   z-index: 1000;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 ion-slides {
-    --bullet-background: white;
-    --bullet-background-active: white;
- }
+  --bullet-background: white;
+  --bullet-background-active: white;
+}
 
 //  Parul's Code
 h1 {
@@ -52,25 +52,20 @@ h1 {
   margin-bottom: 1px;
 }
 
-// Prajakta's Code 
-.platform{
-   
-    
+// Prajakta's Code
+.platform {
   width: 100%;
-  padding-bottom: 17%;
   background-color: #1669d3;
-
 }
-.platform .headingPlatform{
+.platform .headingPlatform {
   text-align: center;
   color: white;
-  padding-bottom: 5%;
   padding-top: 5%;
-  font-weight: bold; 
-  font-size: 30px; 
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.txt{
+.txt {
   // border: solid 2px green;
   width: 100%;
   font-size: 20px;
@@ -78,31 +73,25 @@ h1 {
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: bold;
-  
+  color: black;
 }
 
-.platform ion-card{
+.platform ion-card {
   height: 110%;
   padding-bottom: 0%;
   border-radius: 0px;
   padding-top: 10px;
-  margin: 5px;   
+  margin: 5px;
 }
 
-.platform ion-icon{
+.platform ion-icon {
   zoom: 4.1;
   // border: solid 1px pink;
   padding: 5%;
   width: 100%;
-  
 }
-.headingBlog{
+.headingBlog {
   text-align: center;
   color: #1669d3;
   font-weight: bold;
-}
-
-.blog{
-  height: 40%;
-   border-bottom: solid 2px #3D7FAF;
 }
